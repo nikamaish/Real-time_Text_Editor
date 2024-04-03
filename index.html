@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Text Editor</title>
+    <!-- Link to your CSS file or CSS framework (e.g., Bootstrap) -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="node_modules/monaco-editor/min/vs/editor/editor.main.css">
+
+</head>
+</head>
+<body>
+    <!-- Text Editor Area -->
+    <div id="editor-container" style="height: 400px;"></div>
+
+
+    <!-- User List -->
+    <div id="user-list">
+        <h2>Users</h2>
+        <!-- User names or avatars will be displayed here -->
+    </div>
+
+    <!-- Presence Indicators -->
+    <div id="presence-indicators">
+        <!-- Presence indicators will be displayed here -->
+    </div>
+
+    <!-- Scripts (link to your JavaScript file) -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/socket.io-client/dist/socket.io.js"></script>
+
+    <!-- Include Monaco Editor's loader script -->
+    <script src="node_modules/monaco-editor/min/vs/loader.js"></script>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

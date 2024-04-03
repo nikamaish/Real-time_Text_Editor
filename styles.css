@@ -1,0 +1,35 @@
+/* styles.css */
+
+/* Text Editor Area */
+#editor-container {
+    height: 400px; /* Adjust height as needed */
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+/* User List */
+#user-list {
+    width: 200px; /* Adjust width as needed */
+    float: left;
+    margin-right: 20px;
+}
+
+#user-list h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Presence Indicators */
+#presence-indicators {
+    clear: both;
+}
+
+.presence-indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+/* Add additional CSS rules as needed */
